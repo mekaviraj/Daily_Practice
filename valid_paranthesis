@@ -1,0 +1,27 @@
+class Solution(object):
+    def isValid(self, s):
+        """
+        :type s: str
+        :rtype: bool
+        """
+        stackk = []
+        for char in s:
+            if char in ["(", "{", "["]:
+                stackk.append(char)
+            elif char in [")", "}", "]"]:
+                # Check if stack is empty before popping
+                if stackk:
+                    if char == ')' and stackk[-1] == '(':
+                        stackk.pop()
+                    elif char == '}' and stackk[-1] == '{':
+                        stackk.pop()
+                    elif char == ']' and stackk[-1] == '[':
+                        stackk.pop()
+                    else:
+                        return False
+                else:
+                    return False
+            else:
+                return False
+        return not stackk
+                              
