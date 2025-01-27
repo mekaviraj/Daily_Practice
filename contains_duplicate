@@ -1,0 +1,24 @@
+class Solution(object):
+    def containsDuplicate(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: bool
+        """
+        x = {}
+        for i in nums :
+            if i in x :
+                return True
+            else: 
+                x[i] =1
+        return False
+
+
+"""
+QSN:
+Given an integer array, return true if any value appears at least twice, otherwise return false.
+
+Solution:
+Use a dictionary to track elements. When an element again appears, return True; otherwise, add the element into the dictionary and continue.
+
+
+"""
