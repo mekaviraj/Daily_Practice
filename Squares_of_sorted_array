@@ -1,0 +1,18 @@
+class Solution(object):
+    def sortedSquares(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: List[int]
+        """
+        nums[:] = [x*x for x in nums] 
+
+        return sorted(nums)
+
+
+'''
+QSN:
+Given a non-decreasing integer array, return an array of the squares of each number sorted in non-decreasing order.
+
+Solution:
+Use list comprehension to square every member and return the list in a sorted order.
+'''
