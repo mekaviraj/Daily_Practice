@@ -1,0 +1,11 @@
+# walrus operator is used in assignment of value inside expression itself 
+""" variable := expression
+"""
+
+stock = {}
+stock["apple"] = (qty := 10)
+print(stock, qty)  # Output: {'apple': 10}, 10
+#instead of ->
+stockk = {}
+stockk["applee"] = (qtyy := 100)
+print(stockk, qtyy)  # Output: {'applee': 100}, 100
