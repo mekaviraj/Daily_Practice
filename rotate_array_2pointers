@@ -1,0 +1,36 @@
+class Solution(object):
+    def rotate(self, nums, k):
+        """
+        :type nums: List[int]
+        :type k: int
+        :rtype: None Do not return anything, modify nums in-place instead.
+        """
+        # nums = nums[-1] + nums[:len(nums)-1] thhappu 
+
+        # for i in range(1, k+1):
+        #     nums[:] = nums[-1:] + nums[:-1] 
+        #     print("rotate {} steps to the right: {}".format(i, nums))
+
+        # for i in range(k) :
+        #     x = nums.pop()
+        #     nums.insert(0, x)
+        #     print("rotate {} steps to the right: {}".format(i+1, nums))
+
+        # for j in range(k) :
+        #  for i in range((len(nums))-1, 0, -1):
+        #     nums[i], nums[i-1] = nums[i-1] , nums[i]
+        #  print("rotate {} steps to the right: {}".format(j+1, nums))
+
+        # start = 0 
+        # end = len(nums) -1
+        k = k%len(nums)
+
+        # while k>0 :
+        #  for i in range(1, len(nums) //2 ):
+        #     nums[start] , nums[end] = nums[end] , nums[start] 
+        #  k -=1
+
+
+        nums.reverse()
+        nums[:k] = reversed(nums[:k])
+        nums[k:] = reversed(nums[k:])
