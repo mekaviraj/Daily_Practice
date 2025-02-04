@@ -1,0 +1,17 @@
+def max_profits(jobs, profits, deadlines):
+    total_time = max(deadlines)
+    temp = {jobs[i]: profits[i] for i in range(len(jobs))}
+    slots = [None] * total_time
+    for job in jobs:
+        helper(job, deadlines[jobs.index(job)], slots)
+    total_profit = sum([temp[slots[i]] for i in range(total_time))
+    return total_profit
+
+def helper(job, deadline, slots):
+    for i in range(deadline - 1, -1, -1):
+        if slots[i] is None:
+            slots[i] = job
+            break
+"""
+      job sequence with deadlines question 
+      """
