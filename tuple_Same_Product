@@ -1,0 +1,22 @@
+class Solution(object):
+    def tupleSameProduct(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+        prods = {}
+        n = len(nums)
+        for i in range(n):
+            for j in range(i+1, n):
+                product = nums[i] * nums[j]
+                if product in prods:
+                    prods[product] += 1
+                else:
+                    prods[product] = 1
+        
+        summ = 0
+        for product in prods:
+            count = prods[product]
+            summ += (count * (count - 1) // 2)
+        
+        return summ * 8  
