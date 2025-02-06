@@ -1,0 +1,19 @@
+class Solution(object):
+    def intersection(self, nums):
+        """
+        :type nums: List[List[int]]
+        :rtype: List[int]
+        """
+
+        ref = nums[0] 
+        for i in range(1, len(nums)):
+            for num in ref[:]:
+                if num not in nums[i]:
+                    ref.remove(num)  
+        return sorted(ref)  
+
+        # for i in range(1, len(nums)):
+        #     ref &= set(nums[i]) 
+        # return sorted(ref)
+
+        
