@@ -1,0 +1,25 @@
+class Solution:
+    def largestOddNumber(self, num: str) -> str:
+        # odd = list("13579")
+        # if num[-1] in odd :
+        #     return num
+        # end = num[-1] 
+        # start = num[0]
+        # for i in range(len(num)-1 , -1, -1)  :
+        #     if end not in 
+        # return num[start : end +1]
+        # if int(num)%2 != 0:
+        #     return num
+        end = -1
+        for i in range(len(num) - 1, -1, -1):
+            if int(num[i]) % 2 != 0:
+                end = i
+                break
+        if end == -1:
+            return ""
+        start = 0
+        for i in range(len(num)):
+            if num[i] != '0':
+                start = i
+                break
+        return num[start:end + 1]
