@@ -1,0 +1,194 @@
+1️⃣ Hadoop Commands (Disk Usage & Replication Factor)
+
+start-dfs.sh
+start-yarn.sh
+
+hdfs dfs -ls /
+
+hdfs dfs -mkdir /data
+
+hdfs dfs -put input.txt /data
+
+hdfs dfs -du -h /data/input.txt
+
+hdfs dfs -du -h /data
+
+hdfs fsck /data/input.txt -files -blocks -locations
+
+hdfs dfs -setrep -w 3 /data/input.txt
+
+hdfs fsck /data/input.txt -files -blocks -locations
+
+hdfs dfs -cat /data/input.txt
+
+hdfs dfs -get /data/input.txt
+
+hdfs dfs -rm /data/input.txt
+
+hdfs dfs -rm -r /data
+---------------------------------------------------
+
+Temperature Analysis using MapReduce
+
+mapper_temp.py
+import sys
+
+# input format example:
+# 2020,Hyderabad,35
+# 2020,Delhi,40
+
+for line in sys.stdin:
+    line = line.strip()
+
+    if not line:
+        continue
+
+    year, city, temp = line.split(",")
+
+    print(f"{year}\t{temp}")
+
+reducer_temp.py
+import sys
+
+current_year = None
+max_temp = -999
+
+for line in sys.stdin:
+    line = line.strip()
+    year, temp = line.split("\t")
+    temp = int(temp)
+
+    if current_year == year:
+        if temp > max_temp:
+            max_temp = temp
+    else:
+        if current_year:
+            print(f"{current_year}\t{max_temp}")
+
+        current_year = year
+        max_temp = temp
+
+if current_year == year:
+    print(f"{current_year}\t{max_temp}")
+
+Run MapReduce Job
+
+hdfs dfs -mkdir /weather
+
+hdfs dfs -put weather.txt /weather
+
+hadoop jar $HADOOP_HOME/share/hadoop/tools/lib/hadoop-streaming*.jar \
+-mapper mapper_temp.py \
+-reducer reducer_temp.py \
+-input /weather/weather.txt \
+-output /weather/output
+
+
+hdfs dfs -cat /weather/output/part-00000
+---------------------------------------------------
+Word Count using Pig
+
+
+nano wordcount.pig
+lines = LOAD '/user/pig/wordcount/input/input.txt' USING TextLoader() AS (line:chararray);
+
+words = FOREACH lines GENERATE FLATTEN(TOKENIZE(line)) AS word;
+grouped = GROUP words BY word;
+wordcount = FOREACH grouped GENERATE group AS word, COUNT(words) AS count;
+
+STORE wordcount INTO '/user/pig/wordcount/output' USING PigStorage('\t');
+
+pig wordcount.pig
+--------------------------------------------------------
+Sales Data Analysis using Hive (GROUP BY)
+
+
+hive
+
+CREATE DATABASE salesdb;
+USE salesdb;
+Create Sales Table CREATE TABLE sales( product STRING, amount INT)
+ROW FORMAT DELIMITED
+FIELDS TERMINATED BY ','
+STORED AS TEXTFILE;
+
+nano sales.txt
+
+
+Laptop,50000
+Mobile,20000
+Laptop,45000
+Mobile,15000
+TV,30000
+Laptop,55000
+
+hdfs dfs -put sales.txt /user/hive/
+
+LOAD DATA INPATH '/user/hive/sales.txt' INTO TABLE sales;
+GROUP BY Query (Total Sales per Product) SELECT product, SUM(amount) FROM sales GROUP BY product;
+---------------------------------------------
+
+Word Count using MapReduce
+
+
+mapper.py
+import sys
+
+for line in sys.stdin:
+    line = line.strip()
+
+    words = line.split()
+
+    for word in words:
+        print(f"{word}\t1")
+
+reducer.py)
+
+import sys
+
+current_word = None
+current_count = 0
+
+for line in sys.stdin:
+    line = line.strip()
+    word, count = line.split("\t")
+    count = int(count)
+
+    if current_word == word:
+        current_count += count
+    else:
+        if current_word:
+            print(f"{current_word}\t{current_count}")
+        current_word = word
+        current_count = count
+if current_word == word:
+    print(f"{current_word}\t{current_count}")
+
+hdfs dfs -mkdir /wordcount
+
+hdfs dfs -put input.txt /wordcount
+
+hadoop jar $HADOOP_HOME/share/hadoop/tools/lib/hadoop-streaming*.jar \
+-mapper mapper.py \
+-reducer reducer.py \
+-input /wordcount/input.txt \
+-output /wordcount/output
+
+hdfs dfs -cat /wordcount/output/part-00000
+
+
+Pig UDF: Lowercase → Uppercase
+nano myudf.py
+
+def to_upper(word):
+    return word.upper()
+
+pig
+
+REGISTER 'myudf.py' USING jython AS myfuncs;
+
+data = LOAD '/user/pig/input.txt' USING PigStorage(',') AS (name:chararray);
+
+result = FOREACH data GENERATE myfuncs.to_upper(name);
+
+DUMP result;
