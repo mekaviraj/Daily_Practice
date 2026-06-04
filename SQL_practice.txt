@@ -1,0 +1,155 @@
+-- show all
+SELECT * FROM users;
+
+-- specific cols
+SELECT name,email FROM users;
+
+-- male users
+SELECT * FROM users WHERE gender='Male';
+
+-- female users
+SELECT * FROM users WHERE gender='Female';
+
+-- other users
+SELECT * FROM users WHERE gender='Other';
+
+-- high salary
+SELECT * FROM users WHERE salary>60000;
+
+-- low salary
+SELECT * FROM users WHERE salary<50000;
+
+-- salary range
+SELECT * FROM users WHERE salary BETWEEN 50000 AND 80000;
+
+-- before 2000
+SELECT * FROM users WHERE date_of_birth<'2000-01-01';
+
+-- null salary
+SELECT * FROM users WHERE salary IS NULL;
+
+-- not null
+SELECT * FROM users WHERE salary IS NOT NULL;
+
+-- starts A
+SELECT * FROM users WHERE name LIKE 'A%';
+
+-- ends a
+SELECT * FROM users WHERE name LIKE '%a';
+
+-- contains ar
+SELECT * FROM users WHERE name LIKE '%ar%';
+
+-- gender list
+SELECT * FROM users WHERE gender IN ('Male','Other');
+
+-- and filter
+SELECT * FROM users WHERE gender='Male' AND salary>50000;
+
+-- or filter
+SELECT * FROM users WHERE gender='Female' OR salary>70000;
+
+-- sort asc
+SELECT * FROM users ORDER BY salary ASC;
+
+-- sort desc
+SELECT * FROM users ORDER BY salary DESC;
+
+-- top five
+SELECT * FROM users LIMIT 5;
+
+-- next five
+SELECT * FROM users LIMIT 5 OFFSET 5;
+
+-- unique genders
+SELECT DISTINCT gender FROM users;
+
+-- count users
+SELECT COUNT(*) FROM users;
+
+-- avg salary
+SELECT AVG(salary) FROM users;
+
+-- min salary
+SELECT MIN(salary) FROM users;
+
+-- max salary
+SELECT MAX(salary) FROM users;
+
+-- total salary
+SELECT SUM(salary) FROM users;
+
+-- count gender
+SELECT gender,COUNT(*) FROM users GROUP BY gender;
+
+-- avg gender
+SELECT gender,AVG(salary) FROM users GROUP BY gender;
+
+-- having avg
+SELECT gender,AVG(salary) FROM users GROUP BY gender HAVING AVG(salary)>60000;
+
+-- uppercase names
+SELECT UPPER(name) FROM users;
+
+-- lowercase names
+SELECT LOWER(name) FROM users;
+
+-- name length
+SELECT LENGTH(name) FROM users;
+
+-- combine fields
+SELECT CONCAT(name,' - ',email) FROM users;
+
+-- current time
+SELECT NOW();
+
+-- birth year
+SELECT YEAR(date_of_birth) FROM users;
+
+-- calculate age
+SELECT name,TIMESTAMPDIFF(YEAR,date_of_birth,CURDATE()) FROM users;
+
+-- days lived
+SELECT name,DATEDIFF(CURDATE(),date_of_birth) FROM users;
+
+-- even odd
+SELECT id,MOD(id,2) FROM users;
+
+-- round salary
+SELECT salary,ROUND(salary) FROM users;
+
+-- floor salary
+SELECT salary,FLOOR(salary) FROM users;
+
+-- ceil salary
+SELECT salary,CEIL(salary) FROM users;
+
+-- if function
+SELECT name,IF(gender='Female','Yes','No') FROM users;
+
+-- inner join
+SELECT u.name,a.city FROM users u INNER JOIN addresses a ON u.id=a.user_id;
+
+-- left join
+SELECT u.name,a.city FROM users u LEFT JOIN addresses a ON u.id=a.user_id;
+
+-- right join
+SELECT u.name,a.city FROM users u RIGHT JOIN addresses a ON u.id=a.user_id;
+
+-- no address
+SELECT u.* FROM users u LEFT JOIN addresses a ON u.id=a.user_id WHERE a.user_id IS NULL;
+
+-- union names
+SELECT name FROM users UNION SELECT name FROM admin_users;
+
+-- union all
+SELECT name FROM users UNION ALL SELECT name FROM admin_users;
+
+-- union salary
+SELECT name,salary FROM users UNION SELECT name,salary FROM admin_users;
+
+-- roles union
+SELECT name,'User' AS role FROM users UNION SELECT name,'Admin' AS role FROM admin_users;
+
+-- ordered union
+SELECT name FROM users UNION SELECT name FROM admin_users ORDER BY name;
