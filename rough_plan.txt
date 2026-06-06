@@ -1,0 +1,20 @@
+Your list is solid — you've got the modern AI stack covered well. Here's how I'd think about the gaps:
+
+**Priority gaps (amber)** — these come up constantly in job descriptions and interviews:
+
+- **MLOps** — knowing how to *build* models is assumed; interviewers increasingly ask how you *serve and monitor* them. Docker, model registries, drift detection.
+- **ML System Design** — a dedicated interview round at most mid-to-large companies. "Design a recommendation system / fraud detector / search ranking system."
+- **Unsupervised Learning** — clustering, dimensionality reduction (PCA, UMAP, t-SNE). Often tested implicitly in take-home projects.
+
+**Nice to have (coral):**
+
+- **Stats & Probability** — Bayesian thinking, A/B testing, confidence intervals. Shows up in data science and research roles heavily.
+- **Evals & Safety** — rapidly becoming a first-class skill, especially at companies building on top of LLMs.
+- **Computer Vision** — only if you're targeting vision-heavy roles.
+
+**Role-dependent (gray):**
+
+- **Coding & Tooling** (Python/PyTorch/SQL) is actually foundational — if you haven't explicitly practiced coding interviews with ML problems, that's worth adding.
+- Recommender systems and Graph ML are niche but lucrative if you target the right companies.
+
+Click any box in the diagram to dig deeper into a specific area. What kind of role are you targeting — research, engineering, or applied ML?
