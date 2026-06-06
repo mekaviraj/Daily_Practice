@@ -18,3 +18,81 @@ Your list is solid — you've got the modern AI stack covered well. Here's how I
 - Recommender systems and Graph ML are niche but lucrative if you target the right companies.
 
 Click any box in the diagram to dig deeper into a specific area. What kind of role are you targeting — research, engineering, or applied ML?
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Problem Statement
+
+## Autonomous Warehouse Intelligence Platform using Apache Kafka, Spark Streaming, Big Data Analytics and Multi-Agent AI
+
+Modern e-commerce companies such as Amazon, Flipkart, Blinkit, Zepto, Walmart, and Alibaba process millions of customer orders every day across multiple warehouses. These warehouses continuously receive streams of data related to customer orders, inventory levels, supplier deliveries, shipment statuses, warehouse operations, and logistics events. Managing such a large-scale ecosystem is extremely challenging because decisions regarding inventory replenishment, demand forecasting, procurement planning, warehouse routing, and risk management must be made in real time.
+
+Traditional warehouse management systems primarily operate using predefined rules and manual intervention. As order volumes increase, these systems struggle to handle sudden demand spikes during festivals, flash sales, seasonal events, and promotional campaigns. As a result, warehouses frequently experience inventory shortages, overstocking, delayed procurements, inefficient resource utilization, increased operational costs, and reduced customer satisfaction.
+
+Another major challenge is that most existing systems are reactive rather than proactive. They identify problems only after they occur. For example, stock shortages are detected after products become unavailable, supplier delays are discovered after procurement failures, and warehouse bottlenecks become visible only after delivery delays impact customers. Such reactive approaches lead to revenue loss, increased operational expenses, and poor service reliability.
+
+With the growth of Big Data environments, warehouse systems generate massive volumes of real-time streaming data from order management systems, inventory databases, supplier networks, IoT sensors, logistics platforms, and customer applications. Extracting meaningful insights from this continuous stream of data requires scalable distributed processing frameworks capable of handling high-volume, high-velocity, and high-variety data.
+
+Furthermore, modern enterprises require intelligent systems that can not only monitor operations but also analyze situations, predict future events, recommend corrective actions, and autonomously make decisions. The emergence of Agentic AI provides an opportunity to build autonomous decision-making systems where specialized AI agents collaborate to optimize warehouse operations in real time.
+
+Therefore, there is a need for a scalable, intelligent, and autonomous warehouse management platform capable of processing large-scale real-time data streams, predicting operational risks, optimizing inventory management, automating procurement decisions, and providing explainable business insights through AI-driven agents.
+
+---
+
+# Proposed Solution
+
+To address these challenges, an **Autonomous Warehouse Intelligence Platform** is proposed using Apache Kafka, Apache Spark Structured Streaming, Big Data Analytics, Machine Learning, and Multi-Agent AI.
+
+The system continuously collects real-time streams of warehouse events such as customer orders, inventory updates, supplier information, shipment tracking data, and warehouse operational metrics through Apache Kafka. Apache Spark Structured Streaming processes these high-volume streams in real time and generates business intelligence features for downstream analytics.
+
+A Multi-Agent AI framework is deployed on top of the streaming architecture, where each agent specializes in a specific warehouse function:
+
+### Demand Forecasting Agent
+
+Analyzes historical and real-time order patterns to predict future product demand and identify upcoming demand surges.
+
+### Inventory Intelligence Agent
+
+Monitors stock levels across warehouses and predicts potential stock shortages or overstock situations before they occur.
+
+### Procurement Agent
+
+Automatically evaluates supplier options, delivery timelines, procurement costs, and risk factors to recommend or initiate inventory replenishment actions.
+
+### Warehouse Routing Agent
+
+Optimizes warehouse picking and packing routes using graph algorithms to reduce operational time and improve workforce efficiency.
+
+### Risk Assessment Agent
+
+Identifies operational risks such as supplier delays, inventory shortages, demand spikes, and logistics bottlenecks using predictive analytics and machine learning models.
+
+### Business Insight Agent
+
+Generates natural language explanations and recommendations for warehouse managers using Large Language Models (LLMs), enabling human-friendly interaction with the platform.
+
+The system also incorporates predictive machine learning models such as XGBoost, LightGBM, and LSTM networks to forecast demand, estimate inventory consumption, detect anomalies, and predict operational risks.
+
+A real-time dashboard provides visualization of:
+
+* Order streams
+* Inventory levels
+* Demand forecasts
+* Procurement recommendations
+* Warehouse utilization
+* Risk scores
+* Agent decisions
+
+Additionally, users can interact with the platform through an AI-powered conversational interface by asking questions such as:
+
+* "Which products are likely to run out of stock tomorrow?"
+* "Why is Warehouse A experiencing delays?"
+* "What procurement actions are recommended today?"
+* "Which supplier has the lowest risk score?"
+
+The proposed solution transforms traditional warehouse management from a reactive monitoring system into a proactive and autonomous intelligence platform capable of making data-driven decisions at scale, improving operational efficiency, reducing costs, minimizing stock shortages, and enhancing overall supply chain reliability.
+
+---
+
+### One-line Resume Version
+
+**Developed a Multi-Agent Autonomous Warehouse Intelligence Platform using Apache Kafka, Spark Structured Streaming, Machine Learning, and LLM-powered agents to process millions of real-time inventory and order events, enabling predictive inventory management, automated procurement, risk assessment, and intelligent warehouse optimization.**
