@@ -1,0 +1,388 @@
+If your goal is **AI Research Intern at Lloyds**, I'd avoid generic projects like "chatbot", "movie recommender", "sentiment analysis". Everyone has those.
+
+These 4 projects show a progression from ML → Deep Learning → GenAI → Advanced Agentic AI.
+
+# Project 1 (Easy ML)
+
+## Adaptive Student Performance Predictor
+
+### Short Description
+
+Predict whether a student is at risk of poor performance using attendance, assignment scores, study hours, and previous grades.
+
+### Concepts Covered
+
+* Supervised Learning
+* Classification
+* Overfitting
+* Underfitting
+* Bias-Variance
+* Gradient Descent
+
+---
+
+# Project 2 (Hard AI/Deep Learning)
+
+## Multi-Modal Medical Diagnosis Assistant
+
+### Short Description
+
+Analyze medical images (X-rays/MRI) using CNNs and combine them with patient history text using Transformers to predict diseases and generate diagnostic explanations.
+
+### Concepts Covered
+
+* Neural Networks
+* CNN
+* Transformers
+* Deep Learning
+* Multi-modal AI
+* Explainable AI
+
+---
+
+# Project 3 (Easy GenAI)
+
+## Research Paper RAG Assistant
+
+### Short Description
+
+Upload research papers and ask questions. The system retrieves relevant chunks using embeddings and a vector database before generating answers.
+
+### Concepts Covered
+
+* RAG
+* Embeddings
+* Vector DB
+* Prompt Engineering
+* LLM Integration
+
+---
+
+# Project 4 (Excellent / Interview-Winning)
+
+## Autonomous Reliability Intelligence Agent for Food Delivery Systems
+
+### Short Description
+
+An agentic AI platform that monitors Kafka streams, detects anomalies, investigates root causes, retrieves historical incidents through RAG, predicts failures, and autonomously recommends corrective actions.
+
+### Concepts Covered
+
+* Agentic AI
+* Multi-Agent Systems
+* RAG
+* Vector Databases
+* Fine-Tuning
+* LLMs
+* Streaming Analytics
+* Root Cause Analysis
+
+---
+
+# Detailed Version
+
+---
+
+# 1. Adaptive Student Performance Predictor
+
+### Problem
+
+Educational institutions struggle to identify students who may fail or underperform before final exams.
+
+### Solution
+
+Train ML models using:
+
+Input:
+
+* Attendance
+* Assignments
+* Internal marks
+* Study hours
+* Previous GPA
+
+Output:
+
+* High Risk
+* Medium Risk
+* Low Risk
+
+### Models
+
+* Logistic Regression
+* Random Forest
+* XGBoost
+
+### Research Concepts
+
+Demonstrate:
+
+Overfitting:
+
+genui{"math_block_widget_always_prefetch_v2":{"content":"y=ax^2"}}
+
+by comparing train and test accuracy.
+
+### Tech Stack
+
+* Python
+* Scikit-learn
+* Pandas
+* Streamlit
+
+### Why Recruiters Like It
+
+Shows understanding of classical ML fundamentals.
+
+---
+
+# 2. Multi-Modal Medical Diagnosis Assistant
+
+### Problem
+
+Doctors often analyze both images and textual patient history separately.
+
+### Solution
+
+Create a system that combines:
+
+Image:
+
+* X-rays
+* MRI
+* CT
+
+Text:
+
+* Symptoms
+* Previous conditions
+* Lab reports
+
+### Architecture
+
+CNN Branch:
+
+* ResNet50
+* EfficientNet
+
+Transformer Branch:
+
+* Clinical BERT
+
+Fusion Layer:
+
+* Concatenate features
+
+Final Output:
+
+* Disease prediction
+* Confidence score
+* Explanation
+
+### Pipeline
+
+Image → CNN
+
+Patient Notes → Transformer
+
+Combined Embeddings
+
+↓
+
+Diagnosis Prediction
+
+↓
+
+LLM Explanation
+
+### Tech Stack
+
+* PyTorch
+* HuggingFace
+* OpenCV
+* FastAPI
+
+### Why Recruiters Like It
+
+Shows understanding of:
+
+* CNNs
+* Transformers
+* Deep Learning
+* Real-world AI
+
+---
+
+# 3. Research Paper RAG Assistant
+
+### Problem
+
+Students waste hours reading lengthy research papers.
+
+### Solution
+
+Upload PDFs.
+
+Ask:
+
+* "What methodology was used?"
+* "Summarize results."
+* "Compare with previous work."
+
+### Pipeline
+
+PDF
+
+↓
+
+Chunking
+
+↓
+
+Embedding Model
+
+↓
+
+Vector DB
+
+↓
+
+Retriever
+
+↓
+
+LLM
+
+↓
+
+Answer
+
+### Components
+
+Embedding Model:
+
+* BGE
+* E5
+
+Vector DB:
+
+* ChromaDB
+* FAISS
+
+LLM:
+
+* Llama
+* GPT
+
+### Extra Feature
+
+Citation-aware answers.
+
+### Why Recruiters Like It
+
+Demonstrates complete RAG implementation.
+
+---
+
+# 4. Autonomous Reliability Intelligence Agent
+
+### Problem
+
+Food delivery systems process millions of events:
+
+* Orders
+* Payments
+* Deliveries
+* Refunds
+
+Failures cause:
+
+* Duplicate orders
+* Lost orders
+* Delayed deliveries
+
+Current dashboards only show issues after they occur.
+
+### Solution
+
+Create an autonomous AI operations platform.
+
+### Agent 1
+
+Monitoring Agent
+
+Detects:
+
+* Latency spikes
+* Message loss
+* Duplicate events
+
+### Agent 2
+
+Investigation Agent
+
+Analyzes:
+
+* Kafka logs
+* Spark metrics
+* Service traces
+
+### Agent 3
+
+Knowledge Agent
+
+RAG over:
+
+* Historical incidents
+* Runbooks
+* Architecture docs
+
+### Agent 4
+
+Prediction Agent
+
+Predicts:
+
+* Service degradation
+* Failure probability
+* Future bottlenecks
+
+### Agent 5
+
+Recommendation Agent
+
+Suggests:
+
+* Increase partitions
+* Restart consumer
+* Scale service
+* Retry workflows
+
+### Advanced Features
+
+Fine-tune a small model on:
+
+* Incident reports
+* Reliability tickets
+* Postmortems
+
+### Tech Stack
+
+* Kafka
+* Spark Streaming
+* LangGraph
+* FAISS
+* Llama
+* FastAPI
+* PostgreSQL
+* Grafana
+
+### Why This Stands Out
+
+Most students build:
+
+> "Chat with PDF"
+
+This project looks like something a real AI engineering team would build inside a company.
+
+For a Lloyds AI Research Intern interview, Project #4 is the strongest by far, Project #2 is second, Project #3 is third, and Project #1 gives you the ML fundamentals to discuss confidently.
