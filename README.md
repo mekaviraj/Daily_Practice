@@ -21,4 +21,12 @@ here , i upload my coding practice
 |  |
 | ------- |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/mekaviraj/Daily_Practice/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
+## String
+|  |
+| ------- |
+| [3612-process-string-with-special-operations-i](https://github.com/mekaviraj/Daily_Practice/tree/master/3612-process-string-with-special-operations-i) |
+## Simulation
+|  |
+| ------- |
+| [3612-process-string-with-special-operations-i](https://github.com/mekaviraj/Daily_Practice/tree/master/3612-process-string-with-special-operations-i) |
 <!---LeetCode Topics End-->
