@@ -20,11 +20,12 @@ class Solution:
                     q.append(node.left)
                 if node.right : 
                     q.append(node.right)
-            
-            res.append(level)
-        ans = []
-        for i in res :
-            ans.append(i[-1])
-        return ans
+            res.append(level[-1])
+            # res.append(level)
+        # ans = []
+        # for i in res :
+        #     ans.append(i[-1])
+        # return ans
+        return res
 
 
