@@ -45,4 +45,8 @@ here , i upload my coding practice
 |  |
 | ------- |
 | [0199-binary-tree-right-side-view](https://github.com/mekaviraj/Daily_Practice/tree/master/0199-binary-tree-right-side-view) |
+## Math
+|  |
+| ------- |
+| [1344-angle-between-hands-of-a-clock](https://github.com/mekaviraj/Daily_Practice/tree/master/1344-angle-between-hands-of-a-clock) |
 <!---LeetCode Topics End-->
