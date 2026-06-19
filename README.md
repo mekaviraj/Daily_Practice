@@ -49,4 +49,12 @@ here , i upload my coding practice
 |  |
 | ------- |
 | [1344-angle-between-hands-of-a-clock](https://github.com/mekaviraj/Daily_Practice/tree/master/1344-angle-between-hands-of-a-clock) |
+## Array
+|  |
+| ------- |
+| [1732-find-the-highest-altitude](https://github.com/mekaviraj/Daily_Practice/tree/master/1732-find-the-highest-altitude) |
+## Prefix Sum
+|  |
+| ------- |
+| [1732-find-the-highest-altitude](https://github.com/mekaviraj/Daily_Practice/tree/master/1732-find-the-highest-altitude) |
 <!---LeetCode Topics End-->
