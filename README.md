@@ -24,6 +24,7 @@ here , i upload my coding practice
 ## String
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/mekaviraj/Daily_Practice/tree/master/0003-longest-substring-without-repeating-characters) |
 | [3612-process-string-with-special-operations-i](https://github.com/mekaviraj/Daily_Practice/tree/master/3612-process-string-with-special-operations-i) |
 ## Simulation
 |  |
@@ -61,9 +62,14 @@ here , i upload my coding practice
 ## Hash Table
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/mekaviraj/Daily_Practice/tree/master/0003-longest-substring-without-repeating-characters) |
 | [1865-finding-pairs-with-a-certain-sum](https://github.com/mekaviraj/Daily_Practice/tree/master/1865-finding-pairs-with-a-certain-sum) |
 ## Design
 |  |
 | ------- |
 | [1865-finding-pairs-with-a-certain-sum](https://github.com/mekaviraj/Daily_Practice/tree/master/1865-finding-pairs-with-a-certain-sum) |
+## Sliding Window
+|  |
+| ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/mekaviraj/Daily_Practice/tree/master/0003-longest-substring-without-repeating-characters) |
 <!---LeetCode Topics End-->
