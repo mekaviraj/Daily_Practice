@@ -34,10 +34,12 @@ here , i upload my coding practice
 |  |
 | ------- |
 | [0199-binary-tree-right-side-view](https://github.com/mekaviraj/Daily_Practice/tree/master/0199-binary-tree-right-side-view) |
+| [0951-flip-equivalent-binary-trees](https://github.com/mekaviraj/Daily_Practice/tree/master/0951-flip-equivalent-binary-trees) |
 ## Depth-First Search
 |  |
 | ------- |
 | [0199-binary-tree-right-side-view](https://github.com/mekaviraj/Daily_Practice/tree/master/0199-binary-tree-right-side-view) |
+| [0951-flip-equivalent-binary-trees](https://github.com/mekaviraj/Daily_Practice/tree/master/0951-flip-equivalent-binary-trees) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -46,6 +48,7 @@ here , i upload my coding practice
 |  |
 | ------- |
 | [0199-binary-tree-right-side-view](https://github.com/mekaviraj/Daily_Practice/tree/master/0199-binary-tree-right-side-view) |
+| [0951-flip-equivalent-binary-trees](https://github.com/mekaviraj/Daily_Practice/tree/master/0951-flip-equivalent-binary-trees) |
 ## Math
 |  |
 | ------- |
