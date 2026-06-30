@@ -25,6 +25,7 @@ here , i upload my coding practice
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/mekaviraj/Daily_Practice/tree/master/0003-longest-substring-without-repeating-characters) |
+| [1358-number-of-substrings-containing-all-three-characters](https://github.com/mekaviraj/Daily_Practice/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [3612-process-string-with-special-operations-i](https://github.com/mekaviraj/Daily_Practice/tree/master/3612-process-string-with-special-operations-i) |
 ## Simulation
 |  |
@@ -67,6 +68,7 @@ here , i upload my coding practice
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/mekaviraj/Daily_Practice/tree/master/0003-longest-substring-without-repeating-characters) |
+| [1358-number-of-substrings-containing-all-three-characters](https://github.com/mekaviraj/Daily_Practice/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1865-finding-pairs-with-a-certain-sum](https://github.com/mekaviraj/Daily_Practice/tree/master/1865-finding-pairs-with-a-certain-sum) |
 ## Design
 |  |
@@ -76,6 +78,7 @@ here , i upload my coding practice
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/mekaviraj/Daily_Practice/tree/master/0003-longest-substring-without-repeating-characters) |
+| [1358-number-of-substrings-containing-all-three-characters](https://github.com/mekaviraj/Daily_Practice/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 ## Greedy
 |  |
 | ------- |
