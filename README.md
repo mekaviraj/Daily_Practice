@@ -25,6 +25,7 @@ here , i upload my coding practice
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/mekaviraj/Daily_Practice/tree/master/0003-longest-substring-without-repeating-characters) |
+| [1071-greatest-common-divisor-of-strings](https://github.com/mekaviraj/Daily_Practice/tree/master/1071-greatest-common-divisor-of-strings) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/mekaviraj/Daily_Practice/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [3612-process-string-with-special-operations-i](https://github.com/mekaviraj/Daily_Practice/tree/master/3612-process-string-with-special-operations-i) |
 ## Simulation
@@ -53,6 +54,7 @@ here , i upload my coding practice
 ## Math
 |  |
 | ------- |
+| [1071-greatest-common-divisor-of-strings](https://github.com/mekaviraj/Daily_Practice/tree/master/1071-greatest-common-divisor-of-strings) |
 | [1344-angle-between-hands-of-a-clock](https://github.com/mekaviraj/Daily_Practice/tree/master/1344-angle-between-hands-of-a-clock) |
 ## Array
 |  |
