@@ -59,6 +59,7 @@ here , i upload my coding practice
 ## Array
 |  |
 | ------- |
+| [1288-remove-covered-intervals](https://github.com/mekaviraj/Daily_Practice/tree/master/1288-remove-covered-intervals) |
 | [1732-find-the-highest-altitude](https://github.com/mekaviraj/Daily_Practice/tree/master/1732-find-the-highest-altitude) |
 | [1833-maximum-ice-cream-bars](https://github.com/mekaviraj/Daily_Practice/tree/master/1833-maximum-ice-cream-bars) |
 | [1865-finding-pairs-with-a-certain-sum](https://github.com/mekaviraj/Daily_Practice/tree/master/1865-finding-pairs-with-a-certain-sum) |
@@ -88,6 +89,7 @@ here , i upload my coding practice
 ## Sorting
 |  |
 | ------- |
+| [1288-remove-covered-intervals](https://github.com/mekaviraj/Daily_Practice/tree/master/1288-remove-covered-intervals) |
 | [1833-maximum-ice-cream-bars](https://github.com/mekaviraj/Daily_Practice/tree/master/1833-maximum-ice-cream-bars) |
 ## Counting Sort
 |  |
