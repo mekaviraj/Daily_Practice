@@ -42,10 +42,12 @@ here , i upload my coding practice
 | ------- |
 | [0199-binary-tree-right-side-view](https://github.com/mekaviraj/Daily_Practice/tree/master/0199-binary-tree-right-side-view) |
 | [0951-flip-equivalent-binary-trees](https://github.com/mekaviraj/Daily_Practice/tree/master/0951-flip-equivalent-binary-trees) |
+| [2685-count-the-number-of-complete-components](https://github.com/mekaviraj/Daily_Practice/tree/master/2685-count-the-number-of-complete-components) |
 ## Breadth-First Search
 |  |
 | ------- |
 | [0199-binary-tree-right-side-view](https://github.com/mekaviraj/Daily_Practice/tree/master/0199-binary-tree-right-side-view) |
+| [2685-count-the-number-of-complete-components](https://github.com/mekaviraj/Daily_Practice/tree/master/2685-count-the-number-of-complete-components) |
 ## Binary Tree
 |  |
 | ------- |
@@ -105,10 +107,12 @@ here , i upload my coding practice
 ## Union-Find
 |  |
 | ------- |
+| [2685-count-the-number-of-complete-components](https://github.com/mekaviraj/Daily_Practice/tree/master/2685-count-the-number-of-complete-components) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/mekaviraj/Daily_Practice/tree/master/3532-path-existence-queries-in-a-graph-i) |
 ## Graph Theory
 |  |
 | ------- |
+| [2685-count-the-number-of-complete-components](https://github.com/mekaviraj/Daily_Practice/tree/master/2685-count-the-number-of-complete-components) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/mekaviraj/Daily_Practice/tree/master/3532-path-existence-queries-in-a-graph-i) |
 | [3898-find-the-degree-of-each-vertex](https://github.com/mekaviraj/Daily_Practice/tree/master/3898-find-the-degree-of-each-vertex) |
 ## Matrix
