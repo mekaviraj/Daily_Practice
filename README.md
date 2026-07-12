@@ -62,6 +62,7 @@ here , i upload my coding practice
 |  |
 | ------- |
 | [1288-remove-covered-intervals](https://github.com/mekaviraj/Daily_Practice/tree/master/1288-remove-covered-intervals) |
+| [1331-rank-transform-of-an-array](https://github.com/mekaviraj/Daily_Practice/tree/master/1331-rank-transform-of-an-array) |
 | [1732-find-the-highest-altitude](https://github.com/mekaviraj/Daily_Practice/tree/master/1732-find-the-highest-altitude) |
 | [1833-maximum-ice-cream-bars](https://github.com/mekaviraj/Daily_Practice/tree/master/1833-maximum-ice-cream-bars) |
 | [1865-finding-pairs-with-a-certain-sum](https://github.com/mekaviraj/Daily_Practice/tree/master/1865-finding-pairs-with-a-certain-sum) |
@@ -75,6 +76,7 @@ here , i upload my coding practice
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/mekaviraj/Daily_Practice/tree/master/0003-longest-substring-without-repeating-characters) |
+| [1331-rank-transform-of-an-array](https://github.com/mekaviraj/Daily_Practice/tree/master/1331-rank-transform-of-an-array) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/mekaviraj/Daily_Practice/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1865-finding-pairs-with-a-certain-sum](https://github.com/mekaviraj/Daily_Practice/tree/master/1865-finding-pairs-with-a-certain-sum) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/mekaviraj/Daily_Practice/tree/master/3532-path-existence-queries-in-a-graph-i) |
@@ -95,6 +97,7 @@ here , i upload my coding practice
 |  |
 | ------- |
 | [1288-remove-covered-intervals](https://github.com/mekaviraj/Daily_Practice/tree/master/1288-remove-covered-intervals) |
+| [1331-rank-transform-of-an-array](https://github.com/mekaviraj/Daily_Practice/tree/master/1331-rank-transform-of-an-array) |
 | [1833-maximum-ice-cream-bars](https://github.com/mekaviraj/Daily_Practice/tree/master/1833-maximum-ice-cream-bars) |
 ## Counting Sort
 |  |
