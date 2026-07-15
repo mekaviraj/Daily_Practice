@@ -58,6 +58,7 @@ here , i upload my coding practice
 | ------- |
 | [1071-greatest-common-divisor-of-strings](https://github.com/mekaviraj/Daily_Practice/tree/master/1071-greatest-common-divisor-of-strings) |
 | [1344-angle-between-hands-of-a-clock](https://github.com/mekaviraj/Daily_Practice/tree/master/1344-angle-between-hands-of-a-clock) |
+| [3658-gcd-of-odd-and-even-sums](https://github.com/mekaviraj/Daily_Practice/tree/master/3658-gcd-of-odd-and-even-sums) |
 ## Array
 |  |
 | ------- |
@@ -122,4 +123,8 @@ here , i upload my coding practice
 |  |
 | ------- |
 | [3898-find-the-degree-of-each-vertex](https://github.com/mekaviraj/Daily_Practice/tree/master/3898-find-the-degree-of-each-vertex) |
+## Number Theory
+|  |
+| ------- |
+| [3658-gcd-of-odd-and-even-sums](https://github.com/mekaviraj/Daily_Practice/tree/master/3658-gcd-of-odd-and-even-sums) |
 <!---LeetCode Topics End-->
