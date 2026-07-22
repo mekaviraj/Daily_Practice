@@ -7,6 +7,7 @@ here , i upload my coding practice
 |  |
 | ------- |
 | [0607-sales-person](https://github.com/mekaviraj/Daily_Practice/tree/master/0607-sales-person) |
+| [1965-employees-with-missing-information](https://github.com/mekaviraj/Daily_Practice/tree/master/1965-employees-with-missing-information) |
 ## Linked List
 |  |
 | ------- |
