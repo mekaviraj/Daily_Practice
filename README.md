@@ -59,6 +59,7 @@ here , i upload my coding practice
 | ------- |
 | [1071-greatest-common-divisor-of-strings](https://github.com/mekaviraj/Daily_Practice/tree/master/1071-greatest-common-divisor-of-strings) |
 | [1344-angle-between-hands-of-a-clock](https://github.com/mekaviraj/Daily_Practice/tree/master/1344-angle-between-hands-of-a-clock) |
+| [3513-number-of-unique-xor-triplets-i](https://github.com/mekaviraj/Daily_Practice/tree/master/3513-number-of-unique-xor-triplets-i) |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/mekaviraj/Daily_Practice/tree/master/3658-gcd-of-odd-and-even-sums) |
 ## Array
 |  |
@@ -68,6 +69,7 @@ here , i upload my coding practice
 | [1732-find-the-highest-altitude](https://github.com/mekaviraj/Daily_Practice/tree/master/1732-find-the-highest-altitude) |
 | [1833-maximum-ice-cream-bars](https://github.com/mekaviraj/Daily_Practice/tree/master/1833-maximum-ice-cream-bars) |
 | [1865-finding-pairs-with-a-certain-sum](https://github.com/mekaviraj/Daily_Practice/tree/master/1865-finding-pairs-with-a-certain-sum) |
+| [3513-number-of-unique-xor-triplets-i](https://github.com/mekaviraj/Daily_Practice/tree/master/3513-number-of-unique-xor-triplets-i) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/mekaviraj/Daily_Practice/tree/master/3532-path-existence-queries-in-a-graph-i) |
 | [3898-find-the-degree-of-each-vertex](https://github.com/mekaviraj/Daily_Practice/tree/master/3898-find-the-degree-of-each-vertex) |
 ## Prefix Sum
@@ -128,4 +130,8 @@ here , i upload my coding practice
 |  |
 | ------- |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/mekaviraj/Daily_Practice/tree/master/3658-gcd-of-odd-and-even-sums) |
+## Bit Manipulation
+|  |
+| ------- |
+| [3513-number-of-unique-xor-triplets-i](https://github.com/mekaviraj/Daily_Practice/tree/master/3513-number-of-unique-xor-triplets-i) |
 <!---LeetCode Topics End-->
