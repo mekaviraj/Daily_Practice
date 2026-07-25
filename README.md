@@ -61,6 +61,7 @@ here , i upload my coding practice
 | [1071-greatest-common-divisor-of-strings](https://github.com/mekaviraj/Daily_Practice/tree/master/1071-greatest-common-divisor-of-strings) |
 | [1344-angle-between-hands-of-a-clock](https://github.com/mekaviraj/Daily_Practice/tree/master/1344-angle-between-hands-of-a-clock) |
 | [3513-number-of-unique-xor-triplets-i](https://github.com/mekaviraj/Daily_Practice/tree/master/3513-number-of-unique-xor-triplets-i) |
+| [3536-maximum-product-of-two-digits](https://github.com/mekaviraj/Daily_Practice/tree/master/3536-maximum-product-of-two-digits) |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/mekaviraj/Daily_Practice/tree/master/3658-gcd-of-odd-and-even-sums) |
 ## Array
 |  |
@@ -105,6 +106,7 @@ here , i upload my coding practice
 | [1288-remove-covered-intervals](https://github.com/mekaviraj/Daily_Practice/tree/master/1288-remove-covered-intervals) |
 | [1331-rank-transform-of-an-array](https://github.com/mekaviraj/Daily_Practice/tree/master/1331-rank-transform-of-an-array) |
 | [1833-maximum-ice-cream-bars](https://github.com/mekaviraj/Daily_Practice/tree/master/1833-maximum-ice-cream-bars) |
+| [3536-maximum-product-of-two-digits](https://github.com/mekaviraj/Daily_Practice/tree/master/3536-maximum-product-of-two-digits) |
 ## Counting Sort
 |  |
 | ------- |
