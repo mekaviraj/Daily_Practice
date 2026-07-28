@@ -29,6 +29,7 @@ here , i upload my coding practice
 | [1071-greatest-common-divisor-of-strings](https://github.com/mekaviraj/Daily_Practice/tree/master/1071-greatest-common-divisor-of-strings) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/mekaviraj/Daily_Practice/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1881-maximum-value-after-insertion](https://github.com/mekaviraj/Daily_Practice/tree/master/1881-maximum-value-after-insertion) |
+| [3517-smallest-palindromic-rearrangement-i](https://github.com/mekaviraj/Daily_Practice/tree/master/3517-smallest-palindromic-rearrangement-i) |
 | [3612-process-string-with-special-operations-i](https://github.com/mekaviraj/Daily_Practice/tree/master/3612-process-string-with-special-operations-i) |
 ## Simulation
 |  |
@@ -109,11 +110,13 @@ here , i upload my coding practice
 | [1288-remove-covered-intervals](https://github.com/mekaviraj/Daily_Practice/tree/master/1288-remove-covered-intervals) |
 | [1331-rank-transform-of-an-array](https://github.com/mekaviraj/Daily_Practice/tree/master/1331-rank-transform-of-an-array) |
 | [1833-maximum-ice-cream-bars](https://github.com/mekaviraj/Daily_Practice/tree/master/1833-maximum-ice-cream-bars) |
+| [3517-smallest-palindromic-rearrangement-i](https://github.com/mekaviraj/Daily_Practice/tree/master/3517-smallest-palindromic-rearrangement-i) |
 | [3536-maximum-product-of-two-digits](https://github.com/mekaviraj/Daily_Practice/tree/master/3536-maximum-product-of-two-digits) |
 ## Counting Sort
 |  |
 | ------- |
 | [1833-maximum-ice-cream-bars](https://github.com/mekaviraj/Daily_Practice/tree/master/1833-maximum-ice-cream-bars) |
+| [3517-smallest-palindromic-rearrangement-i](https://github.com/mekaviraj/Daily_Practice/tree/master/3517-smallest-palindromic-rearrangement-i) |
 ## Binary Search
 |  |
 | ------- |
