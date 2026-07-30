@@ -29,6 +29,7 @@ here , i upload my coding practice
 | [1071-greatest-common-divisor-of-strings](https://github.com/mekaviraj/Daily_Practice/tree/master/1071-greatest-common-divisor-of-strings) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/mekaviraj/Daily_Practice/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1881-maximum-value-after-insertion](https://github.com/mekaviraj/Daily_Practice/tree/master/1881-maximum-value-after-insertion) |
+| [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/mekaviraj/Daily_Practice/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 | [3517-smallest-palindromic-rearrangement-i](https://github.com/mekaviraj/Daily_Practice/tree/master/3517-smallest-palindromic-rearrangement-i) |
 | [3612-process-string-with-special-operations-i](https://github.com/mekaviraj/Daily_Practice/tree/master/3612-process-string-with-special-operations-i) |
 ## Simulation
@@ -62,6 +63,7 @@ here , i upload my coding practice
 | [0628-maximum-product-of-three-numbers](https://github.com/mekaviraj/Daily_Practice/tree/master/0628-maximum-product-of-three-numbers) |
 | [1071-greatest-common-divisor-of-strings](https://github.com/mekaviraj/Daily_Practice/tree/master/1071-greatest-common-divisor-of-strings) |
 | [1344-angle-between-hands-of-a-clock](https://github.com/mekaviraj/Daily_Practice/tree/master/1344-angle-between-hands-of-a-clock) |
+| [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/mekaviraj/Daily_Practice/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 | [3513-number-of-unique-xor-triplets-i](https://github.com/mekaviraj/Daily_Practice/tree/master/3513-number-of-unique-xor-triplets-i) |
 | [3536-maximum-product-of-two-digits](https://github.com/mekaviraj/Daily_Practice/tree/master/3536-maximum-product-of-two-digits) |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/mekaviraj/Daily_Practice/tree/master/3658-gcd-of-odd-and-even-sums) |
@@ -103,6 +105,7 @@ here , i upload my coding practice
 | ------- |
 | [1833-maximum-ice-cream-bars](https://github.com/mekaviraj/Daily_Practice/tree/master/1833-maximum-ice-cream-bars) |
 | [1881-maximum-value-after-insertion](https://github.com/mekaviraj/Daily_Practice/tree/master/1881-maximum-value-after-insertion) |
+| [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/mekaviraj/Daily_Practice/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 ## Sorting
 |  |
 | ------- |
