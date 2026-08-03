@@ -60,6 +60,7 @@ here , i upload my coding practice
 ## Math
 |  |
 | ------- |
+| [0398-random-pick-index](https://github.com/mekaviraj/Daily_Practice/tree/master/0398-random-pick-index) |
 | [0628-maximum-product-of-three-numbers](https://github.com/mekaviraj/Daily_Practice/tree/master/0628-maximum-product-of-three-numbers) |
 | [1071-greatest-common-divisor-of-strings](https://github.com/mekaviraj/Daily_Practice/tree/master/1071-greatest-common-divisor-of-strings) |
 | [1344-angle-between-hands-of-a-clock](https://github.com/mekaviraj/Daily_Practice/tree/master/1344-angle-between-hands-of-a-clock) |
@@ -87,6 +88,7 @@ here , i upload my coding practice
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/mekaviraj/Daily_Practice/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0398-random-pick-index](https://github.com/mekaviraj/Daily_Practice/tree/master/0398-random-pick-index) |
 | [1331-rank-transform-of-an-array](https://github.com/mekaviraj/Daily_Practice/tree/master/1331-rank-transform-of-an-array) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/mekaviraj/Daily_Practice/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1865-finding-pairs-with-a-certain-sum](https://github.com/mekaviraj/Daily_Practice/tree/master/1865-finding-pairs-with-a-certain-sum) |
@@ -147,4 +149,12 @@ here , i upload my coding practice
 |  |
 | ------- |
 | [3513-number-of-unique-xor-triplets-i](https://github.com/mekaviraj/Daily_Practice/tree/master/3513-number-of-unique-xor-triplets-i) |
+## Reservoir Sampling
+|  |
+| ------- |
+| [0398-random-pick-index](https://github.com/mekaviraj/Daily_Practice/tree/master/0398-random-pick-index) |
+## Randomized
+|  |
+| ------- |
+| [0398-random-pick-index](https://github.com/mekaviraj/Daily_Practice/tree/master/0398-random-pick-index) |
 <!---LeetCode Topics End-->
