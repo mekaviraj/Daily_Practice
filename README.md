@@ -77,6 +77,7 @@ here , i upload my coding practice
 | [1732-find-the-highest-altitude](https://github.com/mekaviraj/Daily_Practice/tree/master/1732-find-the-highest-altitude) |
 | [1833-maximum-ice-cream-bars](https://github.com/mekaviraj/Daily_Practice/tree/master/1833-maximum-ice-cream-bars) |
 | [1865-finding-pairs-with-a-certain-sum](https://github.com/mekaviraj/Daily_Practice/tree/master/1865-finding-pairs-with-a-certain-sum) |
+| [2091-removing-minimum-and-maximum-from-array](https://github.com/mekaviraj/Daily_Practice/tree/master/2091-removing-minimum-and-maximum-from-array) |
 | [3513-number-of-unique-xor-triplets-i](https://github.com/mekaviraj/Daily_Practice/tree/master/3513-number-of-unique-xor-triplets-i) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/mekaviraj/Daily_Practice/tree/master/3532-path-existence-queries-in-a-graph-i) |
 | [3731-find-missing-elements](https://github.com/mekaviraj/Daily_Practice/tree/master/3731-find-missing-elements) |
@@ -109,6 +110,7 @@ here , i upload my coding practice
 | ------- |
 | [1833-maximum-ice-cream-bars](https://github.com/mekaviraj/Daily_Practice/tree/master/1833-maximum-ice-cream-bars) |
 | [1881-maximum-value-after-insertion](https://github.com/mekaviraj/Daily_Practice/tree/master/1881-maximum-value-after-insertion) |
+| [2091-removing-minimum-and-maximum-from-array](https://github.com/mekaviraj/Daily_Practice/tree/master/2091-removing-minimum-and-maximum-from-array) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/mekaviraj/Daily_Practice/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 ## Sorting
 |  |
