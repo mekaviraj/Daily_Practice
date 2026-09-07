@@ -35,6 +35,7 @@ here , i upload my coding practice
 ## Simulation
 |  |
 | ------- |
+| [2043-simple-bank-system](https://github.com/mekaviraj/Daily_Practice/tree/master/2043-simple-bank-system) |
 | [3612-process-string-with-special-operations-i](https://github.com/mekaviraj/Daily_Practice/tree/master/3612-process-string-with-special-operations-i) |
 ## Tree
 |  |
@@ -77,6 +78,7 @@ here , i upload my coding practice
 | [1732-find-the-highest-altitude](https://github.com/mekaviraj/Daily_Practice/tree/master/1732-find-the-highest-altitude) |
 | [1833-maximum-ice-cream-bars](https://github.com/mekaviraj/Daily_Practice/tree/master/1833-maximum-ice-cream-bars) |
 | [1865-finding-pairs-with-a-certain-sum](https://github.com/mekaviraj/Daily_Practice/tree/master/1865-finding-pairs-with-a-certain-sum) |
+| [2043-simple-bank-system](https://github.com/mekaviraj/Daily_Practice/tree/master/2043-simple-bank-system) |
 | [2091-removing-minimum-and-maximum-from-array](https://github.com/mekaviraj/Daily_Practice/tree/master/2091-removing-minimum-and-maximum-from-array) |
 | [3513-number-of-unique-xor-triplets-i](https://github.com/mekaviraj/Daily_Practice/tree/master/3513-number-of-unique-xor-triplets-i) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/mekaviraj/Daily_Practice/tree/master/3532-path-existence-queries-in-a-graph-i) |
@@ -94,12 +96,14 @@ here , i upload my coding practice
 | [1331-rank-transform-of-an-array](https://github.com/mekaviraj/Daily_Practice/tree/master/1331-rank-transform-of-an-array) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/mekaviraj/Daily_Practice/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1865-finding-pairs-with-a-certain-sum](https://github.com/mekaviraj/Daily_Practice/tree/master/1865-finding-pairs-with-a-certain-sum) |
+| [2043-simple-bank-system](https://github.com/mekaviraj/Daily_Practice/tree/master/2043-simple-bank-system) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/mekaviraj/Daily_Practice/tree/master/3532-path-existence-queries-in-a-graph-i) |
 | [3731-find-missing-elements](https://github.com/mekaviraj/Daily_Practice/tree/master/3731-find-missing-elements) |
 ## Design
 |  |
 | ------- |
 | [1865-finding-pairs-with-a-certain-sum](https://github.com/mekaviraj/Daily_Practice/tree/master/1865-finding-pairs-with-a-certain-sum) |
+| [2043-simple-bank-system](https://github.com/mekaviraj/Daily_Practice/tree/master/2043-simple-bank-system) |
 ## Sliding Window
 |  |
 | ------- |
